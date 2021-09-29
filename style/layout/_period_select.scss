@@ -1,0 +1,77 @@
+.period_select {
+    h2 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 50px;
+
+        rt {
+            font-size: 14px;
+        }
+    }
+
+    input[type="submit"] {
+        width: 10.2vw;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        font-size: 30px;
+        font-weight: bold;
+        float: right;
+    }
+
+    form {
+        .period_select_form {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 145px;
+
+            .wavy_line {
+                font-size: 50px;
+            }
+
+            .start_date {
+                input[type="number"] {
+                    margin-right: 15px;
+                }
+
+                p {
+                    margin-right: 15px;
+                }
+            }
+
+            .end_date {
+                input[type="number"] {
+                    margin-left: 15px;
+                }
+
+                p {
+                    margin-left: 15px;
+                }
+            }
+
+            div {
+                max-width: 30.8vw;
+                display: flex;
+
+                p {
+                    font-size: 20px;
+                    margin-top: 25px;
+                }
+
+                input[type="number"] {
+                    height: 50px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                    width: 7.8vw;
+                    padding-left: 0 24px;
+                }
+            }
+        }
+
+        input[type="submit"] {
+            margin-top: 146px;
+        }
+    }
+}

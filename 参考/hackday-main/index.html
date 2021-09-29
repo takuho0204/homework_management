@@ -1,0 +1,83 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間割作成くん</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@latest/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@latest/dist/cpexcel.js"></script>
+</head>
+
+<body>
+    <div class="inner">
+        <form class="form" action="">
+            <h2 class="form__title">入力フォーム</h2>
+            <div class="form__border">
+                <div class="form__left">
+                    <input class="form__num" type="number" name="" id="subject-time" min=1 placeholder="授業時間を入力..."><br>
+                    <input class="form__text" type="text" name="" id="subject-input" placeholder="授業名を入力...">
+                    <input class="form__addition" type="button" id="subject-submit" value="追加"><br>
+                    <div class="form__bottom">
+                        <div class="form__subject__list">
+                        </div>
+                        <input class="form__reflect" type="button" id="input-submit" value="反映">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+        <h2 class="table__title">時間割</h2>
+        <table id="time-table" class="table" data-name="時間割表">
+            <tbody class="table__area">
+                <tr class="table__head">
+                    <th class="table__weekday">/</th>
+                    <th class="table__weekday">月曜日</th>
+                    <th class="table__weekday">火曜日</th>
+                    <th class="table__weekday">水曜日</th>
+                    <th class="table__weekday">木曜日</th>
+                    <th class="table__weekday">金曜日</th>
+                    <th class="table__weekday">土曜日</th>
+                    <th class="table__weekday">日曜日</th>
+                </tr>
+            </tbody>
+        </table>
+        <input class="table__btn" id="output-btn" type="button" value="出力">
+        <table id="target">
+            <tbody id="pocket-table" class=" table__area">
+                <tr class="table__head">
+                    <th class="table__weekday">/</th>
+                    <th class="table__weekday">月曜日</th>
+                    <th class="table__weekday">火曜日</th>
+                    <th class="table__weekday">水曜日</th>
+                    <th class="table__weekday">木曜日</th>
+                    <th class="table__weekday">金曜日</th>
+                    <th class="table__weekday">土曜日</th>
+                    <th class="table__weekday">日曜日</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer">
+        <div class="footer__chalk">
+            <p class="footer__chalk__white"></p>
+            <p class="footer__chalk__pink"></p>
+        </div>
+        <div class="footer__floor"></div>
+        <img class="footer__eraser" src="images/eraser.png" alt="">
+    </div>
+    <script src="script/index.js"></script>
+    <script src="script/bridge.js"></script>
+</body>
+
+</html>

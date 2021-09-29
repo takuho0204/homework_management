@@ -1,0 +1,227 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #F3F3F3;
+  color: #707070;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 72%;
+}
+
+p {
+  font-weight: bold;
+}
+
+.subject_choice h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 90px 0 50px 0;
+}
+
+.subject_choice_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 128px;
+}
+
+.subject_choice_list #choice_japanese {
+  width: 11.7vw;
+  height: 21.3vh;
+  border: none;
+  font-size: 40px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: #EB4132;
+}
+
+.subject_choice_list #choice_math {
+  width: 11.7vw;
+  height: 21.3vh;
+  border: none;
+  font-size: 40px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: #00AAEE;
+}
+
+.subject_choice_list #choice_science {
+  width: 11.7vw;
+  height: 21.3vh;
+  border: none;
+  font-size: 40px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: #31AA52;
+}
+
+.subject_choice_list #choice_sociology {
+  width: 11.7vw;
+  height: 21.3vh;
+  border: none;
+  font-size: 40px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: #FF9900;
+}
+
+.subject_choice_list #choice_english {
+  width: 11.7vw;
+  height: 21.3vh;
+  border: none;
+  font-size: 40px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: #e3619f;
+}
+
+.subject_input h3 {
+  font-size: 30px;
+}
+
+.subject_input h3 rt {
+  font-size: 13px;
+}
+
+.subject_input_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subject_input input[type="text"] {
+  width: 56.78vw;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.subject_input input[type="text"]::-webkit-input-placeholder {
+  color: #DDDDDD;
+}
+
+.subject_input input[type="text"]:-ms-input-placeholder {
+  color: #DDDDDD;
+}
+
+.subject_input input[type="text"]::-ms-input-placeholder {
+  color: #DDDDDD;
+}
+
+.subject_input input[type="text"]::placeholder {
+  color: #DDDDDD;
+}
+
+.subject_input input[type="submit"] {
+  width: 11.8vw;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.period_select h2 {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 50px;
+}
+
+.period_select h2 rt {
+  font-size: 14px;
+}
+
+.period_select input[type="submit"] {
+  width: 10.2vw;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  font-size: 30px;
+  font-weight: bold;
+  float: right;
+}
+
+.period_select form .period_select_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 145px;
+}
+
+.period_select form .period_select_form .wavy_line {
+  font-size: 50px;
+}
+
+.period_select form .period_select_form .start_date input[type="number"] {
+  margin-right: 15px;
+}
+
+.period_select form .period_select_form .start_date p {
+  margin-right: 15px;
+}
+
+.period_select form .period_select_form .end_date input[type="number"] {
+  margin-left: 15px;
+}
+
+.period_select form .period_select_form .end_date p {
+  margin-left: 15px;
+}
+
+.period_select form .period_select_form div {
+  max-width: 30.8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.period_select form .period_select_form div p {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.period_select form .period_select_form div input[type="number"] {
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  width: 7.8vw;
+  padding-left: 24px;
+}
+
+.period_select form input[type="submit"] {
+  margin-top: 146px;
+}
+/*# sourceMappingURL=style.css.map */

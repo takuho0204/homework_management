@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <title>コンテスト１</title>
+</head>
+
+<body>
+    <header></header>
+    <main class="inner">
+        <div class="period_select">
+            <h2><ruby>
+                    <rb>期間</rb>
+                    <rt>きかん</rt>
+                </ruby>を<ruby>
+                    <rb>選択</rb>
+                    <rt>せんたく</rt>
+                </ruby>しよう</h2>
+            <form action="">
+                <div class="period_select_form">
+                    <div class="start_date">
+                        <input type="number" min="2021">
+                        <p>年</p>
+                        <input type="number" min="1" max="12">
+                        <p>月</p>
+                        <input type="number" min="1" max="31">
+                        <p>日</p>
+                    </div>
+                    <p class="wavy_line">~</p>
+                    <div class="end_date">
+                        <input type="number" min="2021">
+                        <p>年</p>
+                        <input type="number" min="1" max="12">
+                        <p>月</p>
+                        <input type="number" min="1" max="31">
+                        <p>日</p>
+                    </div>
+                </div>
+                <input type="submit" value="次へ">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

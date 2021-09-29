@@ -1,0 +1,38 @@
+.footer {
+    // margin-top: auto;
+
+    &__chalk {
+        margin: 0 auto;
+        width: 75%;
+        max-width: 1000px;
+        display: flex;
+
+        &__white {
+            width: 11rem;
+            height: 2rem;
+            background-color: #fff;
+            box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
+        }
+
+        &__pink {
+            margin-left: 3rem;
+            width: 11rem;
+            height: 2rem;
+            background-color: #FF7BAC;
+            box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
+        }
+
+    }
+
+    &__floor {
+        width: 100%;
+        height: 5rem;
+        background-color: #B3781C;
+    }
+
+    &__eraser {
+        position: absolute;
+        top: 50rem;
+        right: 1rem;
+    }
+}

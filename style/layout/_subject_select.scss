@@ -1,0 +1,88 @@
+@mixin classButton($_color) {
+    width: 11.7vw;
+    height: 21.3vh;
+    border: none;
+    font-size: 40px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #fff;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: $_color;
+}
+
+.subject {
+    &_choice {
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            margin: 90px 0 50px 0;
+
+        }
+
+        &_list {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 128px;
+
+            #choice_japanese {
+                @include classButton(#EB4132);
+            }
+
+            #choice_math {
+                @include classButton(#00AAEE)
+            }
+
+            #choice_science {
+                @include classButton(#31AA52)
+            }
+
+            #choice_sociology {
+                @include classButton(#FF9900)
+            }
+
+            #choice_english {
+                @include classButton(#e3619f)
+            }
+        }
+    }
+
+    &_input {
+        h3 {
+            font-size: 30px;
+
+            rt {
+                font-size: 13px;
+            }
+        }
+
+        &_group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 56.78vw;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            font-size: 20px;
+            padding-left: 30px;
+
+            &::placeholder {
+                color: #DDDDDD;
+            }
+        }
+
+        input[type="submit"] {
+            width: 11.8vw;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+select {
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+option {
+    width: 1px;
+    overflow: hidden;
+}
+
+#time-table {
+    margin-bottom: 60px;
+    overflow: scroll;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    &__title {
+        margin: 9.5rem auto 2rem;
+        color: #fff;
+        font-size: 7rem;
+        text-align: center;
+
+    }
+
+    &__weekday {
+        width: 12rem;
+        height: 5rem;
+        background-color: #64756D;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    &__time {
+        width: 12rem;
+        height: 5rem;
+        background-color: #64756D;
+        border: 1px solid #fff;
+        color: #fff;
+        font-weight: normal;
+    }
+
+    &__subject {
+        width: 12rem;
+        height: 5rem;
+        background-color: #64756D;
+        border: 1px solid #fff;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__btn {
+        margin-bottom: 60px;
+        padding: 15px 40px;
+        padding-bottom: 32px;
+        height: 5rem;
+        background-color: #fff;
+        color: #3e3e3e;
+        font-size: 1.8rem;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .2);
+    }
+}
+
+#pocket-table {
+    display: none;
+}
